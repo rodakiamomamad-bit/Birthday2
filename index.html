@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#a50920">
+<title>تولدت مبارک ساجده ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+:root{--red:#c20d2c;--deep:#650817;--cream:#fff8f5;--gold:#f4d7bd}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:var(--cream);font-family:Vazirmatn,Tahoma,sans-serif;background:radial-gradient(ellipse at 50% 0%,#791023 0%,#260710 48%,#10070b 100%);overflow-x:hidden}
+#particles{position:fixed;inset:0;pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;max-width:980px;margin:auto;padding:24px 18px 70px}
+nav{display:flex;justify-content:space-between;align-items:center;font-size:.86rem;color:#f8dfe2}
+.logo{font-weight:900;letter-spacing:2px;color:#fff}
+.pill{border:1px solid #ffffff35;border-radius:30px;padding:7px 13px;background:#ffffff0b}
+.hero{text-align:center;padding:65px 0 35px}
+.eyebrow{color:#ffb6c2;letter-spacing:3px;font-size:.78rem}
+h1{font-size:clamp(2.5rem,8vw,5.4rem);line-height:1.2;margin:14px 0 10px;font-weight:900;text-shadow:0 7px 35px #ff234a55}
+h1 span{color:#ffb6c2;display:block}
+.subtitle{color:#f6d9dd;max-width:570px;margin:14px auto 0;line-height:2;font-size:1rem}
+.stage{height:330px;display:grid;place-items:center;perspective:900px;margin:18px auto 24px}
+.cake-scene{position:relative;width:270px;height:260px;transform-style:preserve-3d;animation:float 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(5px) rotateX(5deg) rotateY(-8deg)}50%{transform:translateY(-12px) rotateX(-2deg) rotateY(8deg)}}
+.plate{position:absolute;width:270px;height:36px;bottom:18px;left:0;border-radius:50%;background:linear-gradient(180deg,#fff,#c8a7a9 45%,#6e3440);box-shadow:0 22px 35px #0008;transform:rotateX(65deg)}
+.cake{position:absolute;left:35px;bottom:38px;width:200px;height:115px;border-radius:12px 12px 28px 28px;background:linear-gradient(90deg,#8e071e,#f0445d 48%,#9c0924);box-shadow:inset -18px 0 25px #5b0619,inset 12px 0 22px #ff8a96,0 20px 30px #0007;transform:rotateX(4deg)}
+.cake:before{content:"";position:absolute;top:-19px;left:-2px;width:204px;height:43px;border-radius:50%;background:linear-gradient(180deg,#fff,#f5dadd 70%,#d98b98);box-shadow:0 5px 0 #b90c2c}
+.icing{position:absolute;z-index:2;top:-7px;left:10px;width:180px;height:30px;border-radius:50%;border-bottom:7px dotted #fff9}
+.candle{position:absolute;z-index:4;bottom:166px;left:127px;width:14px;height:53px;border-radius:5px;background:repeating-linear-gradient(135deg,#fff 0 7px,#d51b38 7px 14px);box-shadow:0 0 10px #fff5}
+.flame{position:absolute;bottom:215px;left:126px;width:17px;height:25px;border-radius:50% 50% 45% 45%;background:radial-gradient(ellipse at 50% 70%,#fff 0 15%,#ffe7a0 30%,#ff8b24 65%,transparent 72%);filter:drop-shadow(0 0 13px #ffb34d);animation:flicker .7s infinite alternate;transform-origin:bottom}
+@keyframes flicker{to{transform:rotate(8deg) scale(.86);opacity:.85}}
+.heart{position:absolute;color:#ff9eae;font-size:25px;animation:heart 5s ease-in-out infinite}
+.heart.one{left:8px;top:65px}.heart.two{right:4px;top:115px;animation-delay:1.4s}.heart.three{right:35px;bottom:20px;animation-delay:2.2s}
+@keyframes heart{0%,100%{transform:translateY(0) rotate(-10deg);opacity:.45}50%{transform:translateY(-18px) rotate(12deg);opacity:1}}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:12px 0 40px}
+button{font:inherit;border:0;cursor:pointer;border-radius:30px;padding:13px 23px;transition:.25s}
+.primary{background:linear-gradient(135deg,#ff7185,#bd0b2c);color:white;font-weight:800;box-shadow:0 8px 28px #d20d3d55}
+.primary:hover{transform:translateY(-3px);box-shadow:0 12px 35px #f21b4b77}
+.secondary{background:#ffffff0d;border:1px solid #ffffff35;color:#fff}
+.card{max-width:700px;margin:0 auto 25px;padding:30px 25px;border:1px solid #ffffff24;border-radius:25px;background:linear-gradient(145deg,#ffffff12,#ffffff05);box-shadow:0 22px 70px #0004;backdrop-filter:blur(12px)}
+.card h2{margin:0 0 14px;color:#ffbdc8;font-size:1.35rem}
+.card p{line-height:2.2;color:#f8e8e9;margin:0}
+.hidden-message{display:none;animation:reveal .8s ease both}
+.hidden-message.show{display:block}
+@keyframes reveal{from{opacity:0;transform:translateY(18px) scale(.98)}to{opacity:1;transform:none}}
+.signature{text-align:center;color:#ffb9c5;margin-top:20px;font-weight:700}
+footer{text-align:center;color:#d5aeb5;font-size:.8rem;margin-top:42px}
+.music-note{font-size:.8rem;color:#f2cbd1;text-align:center;margin-top:-25px;margin-bottom:28px}
+.spark{position:fixed;width:3px;height:3px;background:#fff;border-radius:50%;box-shadow:0 0 10px #fff;animation:twinkle 3s infinite ease-in-out}
+@keyframes twinkle{0%,100%{opacity:.15;transform:scale(.6)}50%{opacity:1;transform:scale(1.6)}}
+@media(max-width:520px){.hero{padding-top:48px}.stage{height:290px;transform:scale(.9)}.card{padding:24px 19px}.subtitle{font-size:.93rem}}
+
+/* Extra luxury birthday detailing */
+body:before,body:after{content:"";position:fixed;pointer-events:none;z-index:0;border:1px solid #ffb7c455;border-radius:50%;width: min(78vw,720px);height:min(78vw,720px);left:50%;top:48%;transform:translate(-50%,-50%);box-shadow:0 0 90px #d90c3430,inset 0 0 80px #ffb3c014}
+body:after{width:min(92vw,900px);height:min(92vw,900px);border-style:dashed;opacity:.45;animation:orbit 80s linear infinite}
+@keyframes orbit{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.wrap{max-width:1060px}
+nav{padding:12px 16px;border:1px solid #ffffff26;border-radius:18px;background:linear-gradient(100deg,#ffffff12,#ffffff04);box-shadow:0 12px 35px #0003}
+.logo{font-size:.95rem}
+.hero{position:relative;padding-top:76px}
+.hero:before{content:"✦  ✧  ✦";display:block;color:#ffdce2;letter-spacing:24px;font-size:1.15rem;margin-bottom:18px;opacity:.85}
+.eyebrow{display:inline-block;border:1px solid #ffb5c455;border-radius:30px;padding:8px 17px;background:#ffffff0b;box-shadow:0 0 24px #ff315222}
+h1{background:linear-gradient(180deg,#fff 15%,#ffc2cd 55%,#f15c76);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 10px 24px #fa315044)}
+.subtitle{font-size:1.06rem}
+.stage{position:relative;max-width:650px;margin:12px auto 26px}
+.stage:before{content:"";position:absolute;width:390px;height:210px;max-width:90%;border-radius:50%;background:radial-gradient(ellipse,#e51b4a33,transparent 68%);filter:blur(12px);bottom:0}
+.stage:after{content:"HAPPY BIRTHDAY";position:absolute;bottom:4px;left:50%;transform:translateX(-50%);font-size:.65rem;letter-spacing:8px;color:#ffd5dc88;white-space:nowrap}
+.cake-scene{filter:drop-shadow(0 24px 30px #0008)}
+.plate{box-shadow:0 24px 45px #0009,0 0 25px #fff2}
+.cake{background:linear-gradient(90deg,#79051a,#ed3154 42%,#ff7184 55%,#9c0924);box-shadow:inset -18px 0 25px #5b0619,inset 12px 0 22px #ff9ba8,0 20px 30px #0007}
+.actions{margin:20px 0 52px}
+button{letter-spacing:.1px}
+.primary{border:1px solid #ffb7c5aa;background:linear-gradient(120deg,#ff9aa9 0%,#d8173b 48%,#8f071f 100%);box-shadow:0 8px 25px #d20d3d66,inset 0 1px 0 #ffffff88}
+.secondary{box-shadow:inset 0 1px 0 #ffffff22,0 8px 22px #0003}
+.card{position:relative;overflow:hidden;border:1px solid #ffd0d733;border-radius:28px;background:linear-gradient(145deg,#ffffff19,#ffffff07 55%,#c20d2c12);box-shadow:0 25px 70px #0005,inset 0 1px 0 #ffffff22}
+.card:before{content:"";position:absolute;inset:8px;border:1px solid #ffbdc51c;border-radius:21px;pointer-events:none}
+.card:after{content:"✧";position:absolute;top:12px;left:20px;color:#ffd5dc99;font-size:2rem}
+.card h2{font-size:1.45rem;text-shadow:0 0 20px #ff607455}
+.card p{font-size:1.02rem}
+#secret{border-color:#ff9eae66;background:linear-gradient(135deg,#9b0927aa,#ffffff0c,#e02a4a20)}
+.signature{font-size:1.08rem;text-shadow:0 0 18px #ff7185aa}
+footer{padding:20px 10px;border-top:1px solid #ffffff20;letter-spacing:.5px}
+@media(min-width:760px){.hero{padding-top:88px}.card{padding:38px 42px}.stage{height:360px}.cake-scene{transform:scale(1.08);animation:float 4s ease-in-out infinite}}
+@media(max-width:520px){nav{font-size:.75rem}.hero:before{letter-spacing:12px}.stage:after{letter-spacing:5px}.card h2{font-size:1.2rem}.card p{font-size:.95rem}}
+
+
+/* Redesigned, layered celebration cake */
+.cake-scene{width:300px;height:285px}
+.plate{width:294px;height:39px;left:3px;bottom:15px;background:linear-gradient(180deg,#fff 0%,#f8e5e7 18%,#c99da5 54%,#75404b 100%);border:1px solid #ffe9ec;box-shadow:0 25px 38px #0009,0 0 22px #ffdce355;transform:rotateX(66deg)}
+.plate-rim{position:absolute;inset:5px 10px;border:2px solid #fff9;border-radius:50%;box-shadow:0 0 10px #fff8}
+.cake{position:absolute;transform:none;border-radius:13px 13px 20px 20px}
+.cake-bottom{z-index:2;left:31px;bottom:39px;width:238px;height:103px;background:linear-gradient(90deg,#79051a 0%,#c20d2c 18%,#f04b68 48%,#c20d2c 82%,#76071d 100%);box-shadow:inset 12px 0 17px #ff9ca655,inset -15px 0 22px #4b0314,0 13px 20px #0006}
+.cake-bottom:before{content:"";position:absolute;top:-17px;left:-3px;width:244px;height:36px;border-radius:50%;background:linear-gradient(180deg,#fff 0%,#fff0f2 58%,#eab6bf 100%);box-shadow:0 4px 0 #9e0a27}
+.cake-bottom .icing{z-index:3;top:-10px;left:9px;width:220px;height:27px;border-radius:50%;border-bottom:0;background:linear-gradient(180deg,#fff,#ffe8ec);box-shadow:inset 0 -4px 5px #dca0aa}
+.drips{position:absolute;z-index:4;top:3px;left:12px;width:214px;height:28px}
+.drips i{position:absolute;top:0;width:13px;height:18px;background:linear-gradient(90deg,#f8dce0,#fff,#eab6bf);border-radius:0 0 9px 9px;box-shadow:0 2px 2px #71071d44}
+.drips i:nth-child(1){left:8px;height:13px}.drips i:nth-child(2){left:39px;height:23px}.drips i:nth-child(3){left:73px;height:15px}.drips i:nth-child(4){left:105px;height:26px}.drips i:nth-child(5){left:139px;height:15px}.drips i:nth-child(6){left:171px;height:22px}.drips i:nth-child(7){left:198px;height:12px}
+.cake-shine{position:absolute;top:28px;left:13px;width:4px;height:49px;border-radius:5px;background:#ffb8c466;box-shadow:0 0 12px #ff8ea455}
+.pearls{position:absolute;z-index:5;bottom:9px;left:17px;right:17px;display:flex;justify-content:space-between}
+.pearls i,.top-pearls i{width:7px;height:7px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff,#ffe0e5 45%,#d88b9a 100%);box-shadow:0 1px 4px #500616}
+.cake-top{z-index:5;left:70px;bottom:137px;width:160px;height:68px;border-radius:10px 10px 16px 16px;background:linear-gradient(90deg,#8b071e,#e52b4d 40%,#ff7890 56%,#a20b2a);box-shadow:inset 9px 0 14px #ffb3be55,inset -12px 0 18px #560414,0 9px 15px #0005}
+.cake-top:before{content:"";position:absolute;top:-13px;left:-2px;width:164px;height:28px;border-radius:50%;background:linear-gradient(180deg,#fff,#ffe9ec 72%,#e6b2bc);box-shadow:0 3px 0 #a20b2a}
+.top-icing{position:absolute;top:-8px;left:8px;width:144px;height:23px;border-radius:50%;background:linear-gradient(#fff,#f7dfe3)}
+.top-drips{position:absolute;top:3px;left:12px;right:12px;height:20px;z-index:2}
+.top-drips i{position:absolute;width:10px;height:14px;border-radius:0 0 7px 7px;background:linear-gradient(90deg,#f5d7dd,#fff,#e3aab5)}
+.top-drips i:nth-child(1){left:7px;height:10px}.top-drips i:nth-child(2){left:38px;height:18px}.top-drips i:nth-child(3){left:68px;height:12px}.top-drips i:nth-child(4){left:98px;height:17px}.top-drips i:nth-child(5){left:127px;height:9px}
+.top-pearls{position:absolute;z-index:4;bottom:8px;left:15px;right:15px;display:flex;justify-content:space-between}
+.cake-decoration{position:absolute;z-index:7;bottom:196px;left:145px;color:#fff0b8;font-size:17px;text-shadow:0 0 9px #ffe4a1}
+.candle{z-index:8;bottom:190px;left:143px;height:48px;width:12px;border:1px solid #ffffffaa;border-radius:4px;background:repeating-linear-gradient(135deg,#fff 0 6px,#d51b38 6px 12px);box-shadow:0 0 12px #fff8}
+.flame{z-index:9;bottom:235px;left:141px}
+.cake-scene:after{content:"";position:absolute;z-index:6;left:83px;bottom:129px;width:134px;height:3px;border-radius:50%;background:#ffe7ea;box-shadow:0 0 8px #fff8}
+@media(max-width:520px){.cake-scene{transform:scale(.9)}}
+
+
+/* Cake layout fix: stable layers, centered candle, no overlapping pseudo-elements */
+.cake-scene{position:relative!important;width:300px!important;height:290px!important;transform-style:preserve-3d;isolation:isolate}
+.cake-scene .plate{position:absolute!important;z-index:1!important;left:3px!important;bottom:14px!important;width:294px!important;height:36px!important;border-radius:50%!important;transform:rotateX(65deg)!important;background:linear-gradient(180deg,#fff 0%,#f7e6e9 25%,#c99ba5 65%,#693b47 100%)!important;border:1px solid #fff8;box-shadow:0 20px 32px #0009,0 0 22px #ffdce344!important}
+.plate-rim{position:absolute;inset:5px 10px;border:2px solid #fff9;border-radius:50%;display:block}
+.cake-scene .cake{position:absolute!important;transform:none!important;border-radius:12px 12px 17px 17px!important;box-sizing:border-box}
+.cake-bottom{z-index:2!important;left:30px!important;bottom:39px!important;width:240px!important;height:105px!important;background:linear-gradient(90deg,#76051b 0%,#bd0c2d 18%,#f04462 48%,#d0173b 78%,#72051b 100%)!important;box-shadow:inset 12px 0 18px #ff9ba855,inset -16px 0 22px #4c0315,0 12px 18px #0007!important}
+.cake-bottom:before{content:none!important}
+.bottom-top-icing{position:absolute;display:block;z-index:2;top:-12px;left:-3px;width:246px;height:28px;border-radius:50%;background:linear-gradient(180deg,#fff,#ffe9ed 65%,#e8b6c0);box-shadow:0 3px 0 #970820}
+.bottom-drip{position:absolute;z-index:3;top:1px;width:13px;background:linear-gradient(90deg,#f1cbd2,#fff,#e5aab5);border-radius:0 0 9px 9px;box-shadow:0 2px 3px #65081955}
+.drip-a{left:18px;height:17px}.drip-b{left:53px;height:25px}.drip-c{left:88px;height:14px}.drip-d{left:126px;height:23px}.drip-e{left:165px;height:16px}.drip-f{left:207px;height:22px}
+.cake-band{position:absolute;left:0;right:0;top:49px;height:7px;background:linear-gradient(180deg,#ffb6c2,#a50a28);box-shadow:0 2px 4px #57051666}
+.cake-pearl,.top-pearl{position:absolute;display:block;width:8px;height:8px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff,#ffe4e9 48%,#d68b9a);box-shadow:0 1px 4px #4c0615}
+.cake-pearl{bottom:12px}.p1{left:20px}.p2{left:52px}.p3{left:84px}.p4{left:116px}.p5{left:148px}.p6{left:180px}.p7{left:212px}
+.cake-top{z-index:4!important;left:75px!important;bottom:143px!important;width:150px!important;height:66px!important;background:linear-gradient(90deg,#80051d,#d91b40 35%,#fa7187 57%,#a80b2a 100%)!important;box-shadow:inset 9px 0 15px #ffb5c255,inset -12px 0 17px #500414,0 8px 14px #0006!important}
+.cake-top:before{content:none!important}
+.top-top-icing{position:absolute;display:block;top:-10px;left:-2px;width:154px;height:24px;border-radius:50%;background:linear-gradient(180deg,#fff,#ffe8ec 70%,#e6b5bf);box-shadow:0 3px 0 #940922}
+.top-drip{position:absolute;z-index:2;top:0;width:10px;background:linear-gradient(90deg,#f0cbd2,#fff,#e5aab5);border-radius:0 0 7px 7px}
+.td1{left:17px;height:12px}.td2{left:43px;height:20px}.td3{left:70px;height:14px}.td4{left:98px;height:19px}.td5{left:125px;height:11px}
+.top-pearl{bottom:8px;width:7px;height:7px}.tp1{left:18px}.tp2{left:43px}.tp3{left:68px}.tp4{left:93px}.tp5{left:118px}
+.cake-scene .candle{position:absolute!important;z-index:8!important;left:144px!important;bottom:205px!important;width:12px!important;height:43px!important;border-radius:4px!important;background:repeating-linear-gradient(135deg,#fff 0 6px,#d51b38 6px 12px)!important;border:1px solid #ffffffaa;box-shadow:0 0 12px #fff8}
+.cake-scene .flame{position:absolute!important;z-index:9!important;left:142px!important;bottom:244px!important;width:16px!important;height:23px!important;border-radius:50% 50% 45% 45%!important;background:radial-gradient(ellipse at 50% 70%,#fff 0 14%,#ffe7a0 30%,#ff8b24 65%,transparent 73%)!important;filter:drop-shadow(0 0 12px #ffb34d);transform-origin:bottom;animation:flicker .7s infinite alternate}
+.cake-scene .heart{z-index:0}
+@media(max-width:520px){.cake-scene{transform:scale(.88)!important;transform-origin:center center;margin-left:auto;margin-right:auto}}
+
+</style>
+</head>
+<body>
+<canvas id="particles"></canvas>
+<div class="wrap">
+  <nav><div class="logo">✦ FROM YESNA</div><div class="pill">۱۹ نوامبر · یک روز خاص</div></nav>
+  <header class="hero">
+    <div class="eyebrow">A LITTLE CELEBRATION FOR YOU</div>
+    <h1>تولدت مبارک <span>ساجده! ❤️</span></h1>
+    <p class="subtitle">امروز نوبت توئه که بدرخشی؛ چون دنیا با بودن آدم‌هایی مثل تو قشنگ‌تره.</p>
+    <div style="margin:24px auto 0;display:flex;justify-content:center;gap:10px;flex-wrap:wrap"><span class="pill">✦ شانزده سالگی ✦</span><span class="pill">♡ یک روز برای تو ♡</span><span class="pill">از طرف یسنا</span></div>
+  </header>
+  <div class="stage" aria-label="کیک تولد سه‌بعدی">
+    <div class="cake-scene">
+      <div class="heart one">✦</div><div class="heart two">♡</div><div class="heart three">✧</div>
+      <div class="plate"><span class="plate-rim"></span></div>
+      <div class="cake cake-bottom">
+        <span class="bottom-top-icing"></span>
+        <span class="bottom-drip drip-a"></span><span class="bottom-drip drip-b"></span>
+        <span class="bottom-drip drip-c"></span><span class="bottom-drip drip-d"></span>
+        <span class="bottom-drip drip-e"></span><span class="bottom-drip drip-f"></span>
+        <span class="cake-band"></span><span class="cake-pearl p1"></span><span class="cake-pearl p2"></span>
+        <span class="cake-pearl p3"></span><span class="cake-pearl p4"></span><span class="cake-pearl p5"></span>
+        <span class="cake-pearl p6"></span><span class="cake-pearl p7"></span>
+      </div>
+      <div class="cake cake-top">
+        <span class="top-top-icing"></span>
+        <span class="top-drip td1"></span><span class="top-drip td2"></span><span class="top-drip td3"></span>
+        <span class="top-drip td4"></span><span class="top-drip td5"></span>
+        <span class="top-pearl tp1"></span><span class="top-pearl tp2"></span><span class="top-pearl tp3"></span>
+        <span class="top-pearl tp4"></span><span class="top-pearl tp5"></span>
+      </div>
+      <div class="candle"></div><div class="flame"></div>
+    </div>
+  </div>
+  <div class="actions">
+    <button class="primary" id="surprise">باز کن؛ یه سورپرایز داری ✨</button>
+    <button class="secondary" id="music">♫ پخش موزیک</button>
+  </div>
+  <div class="music-note" id="musicNote">برای شنیدن ملودی جشن، دکمه موزیک رو بزن.</div>
+  <section class="card">
+    <h2>از طرف یسنا، برای ساجده 💌</h2>
+    <p>امیدوارم ۱۶ سالگیت پر از اتفاق‌های قشنگ، خنده‌های از ته دل، آدم‌های درست و خاطره‌هایی بشه که تا همیشه با لبخند یادت بیاد. همیشه همون‌قدر پرانرژی و دوست‌داشتنی بمونی و هر چیزی که ته دلت آرزوش رو داری، یه روز قشنگ‌تر از چیزی که فکر می‌کنی به دست بیاری. تولدت مبارک رفیق! ❤️</p>
+  </section>
+  <section class="card hidden-message" id="secret">
+    <h2>یه حرف کوچولو از طرف یسنا 🎀</h2>
+    <p>ساجده جان، شاید این فقط یه صفحه‌ی کوچیک باشه، ولی یسنا با کلی ذوق و انرژی خوب اینو مخصوص تو آماده کرده. امیدوارم امسال برات شروع یه فصل فوق‌العاده باشه؛ فصلی پر از تجربه‌های تازه، موفقیت و لحظه‌هایی که دلت بخواد نگهشون داری.</p>
+    <div class="signature">با عشق، یسنا ❤️</div>
+  </section>
+  <footer>با عشق ساخته شده؛ از طرف یسنا، برای ساجده ✦</footer>
+</div>
+<script>
+// Stars and floating particles
+const canvas=document.getElementById('particles'),ctx=canvas.getContext('2d');
+let w,h,particles=[];
+function resize(){w=canvas.width=innerWidth;h=canvas.height=innerHeight;particles=Array.from({length:Math.min(90,Math.floor(w/10))},()=>({x:Math.random()*w,y:Math.random()*h,r:Math.random()*2+0.5,v:Math.random()*.45+.12,a:Math.random()*.7+.2}))}
+function draw(){ctx.clearRect(0,0,w,h);particles.forEach(p=>{p.y-=p.v;if(p.y<0){p.y=h;p.x=Math.random()*w}ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(255,190,202,${p.a})`;ctx.fill()});requestAnimationFrame(draw)}
+addEventListener('resize',resize);resize();draw();
+// Secret message
+document.getElementById('surprise').addEventListener('click',()=>{const s=document.getElementById('secret');s.classList.add('show');s.scrollIntoView({behavior:'smooth',block:'center'});});
+// Original synthesized birthday-style melody; no external audio file required.
+let audio=null,playing=false,timer=null,step=0;
+const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,698.46,523.25,659.25,783.99,1046.5,880,783.99,659.25,587.33];
+function playNote(freq,duration=.28){if(!audio)return;const osc=audio.createOscillator(),gain=audio.createGain();osc.type='sine';osc.frequency.value=freq;gain.gain.setValueAtTime(.0001,audio.currentTime);gain.gain.exponentialRampToValueAtTime(.075,audio.currentTime+.025);gain.gain.exponentialRampToValueAtTime(.0001,audio.currentTime+duration);osc.connect(gain);gain.connect(audio.destination);osc.start();osc.stop(audio.currentTime+duration+.03)}
+const musicBtn=document.getElementById('music'),musicNote=document.getElementById('musicNote');
+musicBtn.addEventListener('click',async()=>{if(!playing){audio=audio||new(window.AudioContext||window.webkitAudioContext)();await audio.resume();playing=true;musicBtn.textContent='Ⅱ توقف موزیک';musicNote.textContent='یه ملودی کوچیک و اختصاصی برای جشن تو 🎶';playNote(notes[step++%notes.length]);timer=setInterval(()=>playNote(notes[step++%notes.length]),360)}else{playing=false;clearInterval(timer);musicBtn.textContent='♫ پخش موزیک';musicNote.textContent='هر وقت خواستی دوباره ملودی رو پخش کن.'}});
+</script>
+</body>
+</html>
